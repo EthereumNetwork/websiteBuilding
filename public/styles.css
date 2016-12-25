@@ -10,7 +10,7 @@ a {
   font-weight: none;
   color:  #ccc;
   outline: none;
-  font-size: 100%;
+  font-size: 3vmin;
 
   }
 a:visited {
@@ -24,11 +24,11 @@ a:hover {
   }
 
 h1 {
-  font-size: 200%;
+  font-size: 5vmin;
   text-align: center;
   }
 h2 {
-  margin: 100% 0 0 0;
+  margin: 1vmin 0 0 0;
 }
 .footer {
   text-align: center;
