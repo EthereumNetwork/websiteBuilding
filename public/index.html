@@ -4,9 +4,11 @@
   <meta charset="UTF-8">
   <title>Ethereum Network</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+  <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
 </head>
 <body>
-  <div class="content">
+  <div id="app">
     <h1>Ethereum Network</h1>
     <p>
       <h2>already live</h2>
@@ -14,19 +16,25 @@
     </p>
     <p>
       <h2>currently being worked on</h2>
-      <a href="http://ethereum.network">Main Page</a><br>
-      <a href="http://learn.ethereum.network">Developer Resources</a><br>
-      <a href="http://dapps.ethereum.network">List of Decentralized Apps and Projects on Ethereum</a><br>
+      <router-link to="/">Main Page</router-link><br>
+      <router-link to="/learn">Developer Resources</router-link><br>
+      <router-link to="/dapps">List of Decentralized Apps and Projects on Ethereum</router-link><br>
     </p>
     <p>
       <h2>planned</h2>
-      <a href="http://explorer.ethereum.network">Network Explorer</a>
+      <router-link to="/explorer">Network Explorer</router-link>
     </p>
+    <router-view></router-view>
+    <div class="footer">
+      <a href="https://twitter.com/EthereumPress">Twitter</a> 
+    </div>
   </div>
-  <div class="footer">
-    <a href="https://twitter.com/EthereumPress">Twitter</a> 
+  <div id="dappListDiv">
+    <input type="text" v-model="searchString" placeholder="Dapp list testing" />
+    <ul>
+      <dapp-item v-for="dapp in filteredDapps" v-bind:dapp="dapp"></dapp-item>
+    </ul>
   </div>
-
-
+  <script src="app.js"></script>
 </body>
 </html>
