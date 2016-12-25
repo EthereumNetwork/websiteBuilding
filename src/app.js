@@ -3,6 +3,12 @@ const Learn = { template: '<div>Developer Resources coming soon...</div>' };
 const Explorer = { template: '<div>Explorer coming later...</div>' };
 const Dapps = { template: '<div>dapps</div>' };
 
+var css = require('./styles.css');
+
+// import Vue from 'vue'; // not working through webpack yet
+import VueRouter from 'vue-router';
+
+
 Vue.component('dapp-item', {
   props: ['dapp'],
   template: '<li><h3>{{ dapp.title }}</h3><p>{{dapp.description}}</p></li>'

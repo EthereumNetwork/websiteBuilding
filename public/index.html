@@ -3,9 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Ethereum Network</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
   <script src="https://unpkg.com/vue/dist/vue.js"></script>
-  <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
 </head>
 <body>
   <div id="app">
@@ -18,7 +16,7 @@
     <router-view></router-view>
     <br><br><br>
     <div class="footer">
-      <a href="https://twitter.com/EthereumPress">Twitter</a> 
+      <a href="https://twitter.com/EthereumPress">Twitter</a>
     </div>
   </div>
   <div id="dappListDiv">
@@ -27,6 +25,6 @@
       <dapp-item v-for="dapp in filteredDapps" v-bind:dapp="dapp"></dapp-item>
     </ul>
   </div>
-  <script src="app.js"></script>
+  <script src="bundle.js"></script>
 </body>
 </html>
