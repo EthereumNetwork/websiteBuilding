@@ -9,22 +9,14 @@
 </head>
 <body>
   <div id="app">
-    <h1>Ethereum Network</h1>
-    <p>
-      <h2>already live</h2>
-      <a href="https://blog.ethereum.network">Blog for Ethereum Meetups</a>
-    </p>
-    <p>
-      <h2>currently being worked on</h2>
-      <router-link to="/">Main Page</router-link><br>
-      <router-link to="/learn">Developer Resources</router-link><br>
-      <router-link to="/dapps">List of Decentralized Apps and Projects on Ethereum</router-link><br>
-    </p>
-    <p>
-      <h2>planned</h2>
-      <router-link to="/explorer">Network Explorer</router-link>
-    </p>
+    <router-link to="/">Home</router-link>
+    <a href="https://blog.ethereum.network">Blog</a>
+    <router-link to="/learn">Learn</router-link>
+    <router-link to="/dapps">Dapps</router-link>
+    <router-link to="/explorer">Network Explorer</router-link>
+    <br><br><br>
     <router-view></router-view>
+    <br><br><br>
     <div class="footer">
       <a href="https://twitter.com/EthereumPress">Twitter</a> 
     </div>
