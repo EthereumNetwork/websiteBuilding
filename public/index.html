@@ -7,11 +7,13 @@
 </head>
 <body>
   <div id="app">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/learn">Learn</router-link> |
-    <router-link to="/dapps">Dapps</router-link> |
-    <router-link to="/explorer">Network Explorer</router-link> |
-    <a href="https://blog.ethereum.network">Blog</a>
+    <ul id="navPBT">
+      <li><router-link to="/">Home</router-link></li>
+      <li><router-link to="/learn">Learn</router-link></li>
+      <li><router-link to="/dapps">Dapps</router-link></li>
+      <li><router-link to="/explorer">Network Explorer</router-link></li>
+      <li><a href="https://blog.ethereum.network">Blog</a></li>
+    </ul>
     <br><br><br>
     <router-view></router-view>
     <div id="routerDiv"></div>
@@ -21,7 +23,6 @@
       <a href="https://github.com/EthereumNetwork/websiteBuilding">Github</a>
     </div>
   </div>
-
   <script src="bundle.js"></script>
 </body>
 </html>

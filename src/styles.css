@@ -34,3 +34,38 @@ h2 {
   text-align: center;
   font-weight: none;
 }
+#navPBT {
+list-style:none;
+margin:0 0 0px 0;
+padding:0;
+
+}
+#navPBT li {
+margin:0;
+padding:0;
+float:left;
+}
+#navPBT li a {
+display:inline;
+overflow:hidden;
+width:auto;
+margin:0;
+padding:8px 12px;
+text-decoration:none;
+text-transform:capitalize;
+text-align:center;
+font-weight:bold;
+font-style:normal;
+font-size:3vmin;
+color: #ccc;
+-moz-transition:all 0.5s ease-in;
+-webkit-transition:all 0.5s ease-in;
+-o-transition:all 0.5s ease-in;
+transition:all 0.5s ease-in;
+}
+#navPBT li a:hover,#navPBT li a:active,#navPBT li a:focus {
+color:#ECB036;
+text-shadow:0px 1px 0px #8E620C;
+background:#313130;
+-moz-transition:none;-webkit-transition:none;-o-transition:none;transition:none;
+}
