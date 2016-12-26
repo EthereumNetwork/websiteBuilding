@@ -14,17 +14,13 @@
     <router-link to="/explorer">Network Explorer</router-link>
     <br><br><br>
     <router-view></router-view>
+    <div id="routerDiv"></div>
     <br><br><br>
     <div class="footer">
       <a href="https://twitter.com/EthereumPress">Twitter</a>
     </div>
   </div>
-  <div id="dappListDiv">
-    <input type="text" v-model="searchString" placeholder="Dapp list testing" />
-    <ul>
-      <dapp-item v-for="dapp in filteredDapps" v-bind:dapp="dapp"></dapp-item>
-    </ul>
-  </div>
+
   <script src="bundle.js"></script>
 </body>
 </html>

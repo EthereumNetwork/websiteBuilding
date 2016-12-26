@@ -2,9 +2,7 @@
   "name": "ethereum.network",
   "version": "0.1.0",
   "description": "server repo while setting up the ethereum.network website",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server/server.js",
     "build": "webpack"
   },
@@ -12,19 +10,21 @@
     "type": "git",
     "url": "git+https://github.com/EthereumNetwork/websiteBuilding.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Michael Ilg",
+  "license": "MPL-2.0",
   "bugs": {
     "url": "https://github.com/EthereumNetwork/websiteBuilding/issues"
   },
-  "homepage": "https://github.com/EthereumNetwork/websiteBuilding#readme",
+  "homepage": "ethereum.network",
   "dependencies": {
     "connect-history-api-fallback": "^1.3.0",
     "css-loader": "^0.26.1",
     "express": "^4.14.0",
     "style-loader": "^0.13.1",
     "vue": "^2.1.7",
+    "vue-loader": "^10.0.2",
     "vue-router": "^2.1.1",
+    "vue-template-compiler": "^2.1.7",
     "webpack": "^2.1.0-beta.25"
   }
 }
