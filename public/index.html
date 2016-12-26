@@ -14,8 +14,9 @@
       <li><router-link to="/explorer">Network Explorer</router-link></li>
       <li><a href="https://blog.ethereum.network">Blog</a></li>
     </ul>
+    <input type="text" v-model="boundData" placeholder="Dapp list testing" />
     <br><br><br>
-    <router-view></router-view>
+    <router-view test-prop="Test works" :bound-prop="boundData"></router-view>
     <div id="routerDiv"></div>
     <br><br><br>
     <div class="footer">

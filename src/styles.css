@@ -54,7 +54,7 @@ padding:8px 12px;
 text-decoration:none;
 text-transform:capitalize;
 text-align:center;
-font-weight:bold;
+font-weight:normal;;
 font-style:normal;
 font-size:3vmin;
 color: #ccc;
@@ -64,8 +64,11 @@ color: #ccc;
 transition:all 0.5s ease-in;
 }
 #navPBT li a:hover,#navPBT li a:active,#navPBT li a:focus {
-color:#ECB036;
+color:#0960ed;
+text-decoration: underline;
+-moz-text-decoration-color: #0960ed;
+text-decoration-color: #0960ed;
 text-shadow:0px 1px 0px #8E620C;
-background:#313130;
+/*background:#313130;*/
 -moz-transition:none;-webkit-transition:none;-o-transition:none;transition:none;
 }
