@@ -1,21 +1,19 @@
 <template>
-  <div>Dapps are coming soon...</div>
+  <div>
+    <div>more Dapps are coming ...</div>
+    <input type="text" v-model="searchString" placeholder="Dapp list testing" />
+    <ul>
+      <dapp-item v-for="dapp in filteredDapps" v-bind:dapp="dapp"></dapp-item>
+    </ul>
+  </div>
 </template>
 
-<!-- <div id="routerDiv">
-  <input type="text" v-model="searchString" placeholder="Dapp list testing" />
-  <ul>
-    <dapp-item v-for="dapp in filteredDapps" v-bind:dapp="dapp"></dapp-item>
-  </ul>
-</div>
-
-Vue.component('dapp-item', {
-  props: ['dapp'],
-  template: '<li><h3>{{ dapp.title }}</h3><p>{{dapp.description}}</p></li>'
-}); -->
 
 
 <script>
+
+import DappItem from './components/DappItem.vue'
+
 export default {
   name: 'app',
   data () {
@@ -49,6 +47,9 @@ export default {
         // Return an array with the filtered data.
         return dappList_array;;
     }
+  },
+  components: {
+    DappItem
   }
 }
 </script>

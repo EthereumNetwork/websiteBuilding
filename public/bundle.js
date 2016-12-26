@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "/public/";
 
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 11);
+/******/ 	return __webpack_require__(__webpack_require__.s = 18);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -100,10 +100,10 @@ var __vue_exports__, __vue_options__
 var __vue_styles__ = {}
 
 /* script */
-__vue_exports__ = __webpack_require__(9)
+__vue_exports__ = __webpack_require__(10)
 
 /* template */
-var __vue_template__ = __webpack_require__(10)
+var __vue_template__ = __webpack_require__(16)
 __vue_options__ = __vue_exports__ = __vue_exports__ || {}
 if (
   typeof __vue_exports__.default === "object" ||
@@ -138,6 +138,94 @@ module.exports = __vue_exports__
 
 /***/ },
 /* 2 */
+/***/ function(module, exports, __webpack_require__) {
+
+var __vue_exports__, __vue_options__
+var __vue_styles__ = {}
+
+/* script */
+__vue_exports__ = __webpack_require__(11)
+
+/* template */
+var __vue_template__ = __webpack_require__(14)
+__vue_options__ = __vue_exports__ = __vue_exports__ || {}
+if (
+  typeof __vue_exports__.default === "object" ||
+  typeof __vue_exports__.default === "function"
+) {
+if (Object.keys(__vue_exports__).some(function (key) { return key !== "default" && key !== "__esModule" })) {console.error("named exports are not supported in *.vue files.")}
+__vue_options__ = __vue_exports__ = __vue_exports__.default
+}
+if (typeof __vue_options__ === "function") {
+  __vue_options__ = __vue_options__.options
+}
+__vue_options__.__file = "/home/michael/work/Ethereum/websiteBuilding/src/Explorer.vue"
+__vue_options__.render = __vue_template__.render
+__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-233e734a", __vue_options__)
+  } else {
+    hotAPI.reload("data-v-233e734a", __vue_options__)
+  }
+})()}
+if (__vue_options__.functional) {console.error("[vue-loader] Explorer.vue: functional components are not supported and should be defined in plain js files using render functions.")}
+
+module.exports = __vue_exports__
+
+
+/***/ },
+/* 3 */
+/***/ function(module, exports, __webpack_require__) {
+
+var __vue_exports__, __vue_options__
+var __vue_styles__ = {}
+
+/* script */
+__vue_exports__ = __webpack_require__(12)
+
+/* template */
+var __vue_template__ = __webpack_require__(15)
+__vue_options__ = __vue_exports__ = __vue_exports__ || {}
+if (
+  typeof __vue_exports__.default === "object" ||
+  typeof __vue_exports__.default === "function"
+) {
+if (Object.keys(__vue_exports__).some(function (key) { return key !== "default" && key !== "__esModule" })) {console.error("named exports are not supported in *.vue files.")}
+__vue_options__ = __vue_exports__ = __vue_exports__.default
+}
+if (typeof __vue_options__ === "function") {
+  __vue_options__ = __vue_options__.options
+}
+__vue_options__.__file = "/home/michael/work/Ethereum/websiteBuilding/src/Learn.vue"
+__vue_options__.render = __vue_template__.render
+__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-2530ca58", __vue_options__)
+  } else {
+    hotAPI.reload("data-v-2530ca58", __vue_options__)
+  }
+})()}
+if (__vue_options__.functional) {console.error("[vue-loader] Learn.vue: functional components are not supported and should be defined in plain js files using render functions.")}
+
+module.exports = __vue_exports__
+
+
+/***/ },
+/* 4 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2205,8 +2293,6 @@ module.exports = VueRouter;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(7)))
 
 /***/ },
-/* 3 */,
-/* 4 */,
 /* 5 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -2215,7 +2301,7 @@ exports = module.exports = __webpack_require__(6)();
 
 
 // module
-exports.push([module.i, "body {\n  margin: 1%;\n  padding: 1%;\n  font-family: verdana, arial, helvetica, sans-serif;\n  color: #ccc;\n  background-color: #333;\n  }\na {\n  text-decoration: none;\n  font-weight: none;\n  color:  #ccc;\n  outline: none;\n  font-size: 3vmin;\n\n  }\na:visited {\n  color:  #ccc;\n  }\na:active {\n  color:  #ccc;\n  }\na:hover {\n  color: black;\n  }\n\nh1 {\n  font-size: 5vmin;\n  text-align: center;\n  }\nh2 {\n  margin: 1vmin 0 0 0;\n}\n.footer {\n  text-align: center;\n  font-weight: bold;\n}", ""]);
+exports.push([module.i, "body {\n  margin: 1%;\n  padding: 1%;\n  font-family: verdana, arial, helvetica, sans-serif;\n  color: #ccc;\n  background-color: #333;\n  }\na {\n  text-decoration: none;\n  font-weight: none;\n  color:  #ccc;\n  outline: none;\n  font-size: 3vmin;\n\n  }\na:visited {\n  color:  #ccc;\n  }\na:active {\n  color:  #ccc;\n  }\na:hover {\n  color: black;\n  }\n\nh1 {\n  font-size: 5vmin;\n  text-align: center;\n  }\nh2 {\n  margin: 1vmin 0 0 0;\n}\n.footer {\n  text-align: center;\n  font-weight: none;\n}\n", ""]);
 
 // exports
 
@@ -2718,7 +2804,53 @@ function updateLink(linkElement, obj) {
 /* 9 */
 /***/ function(module, exports, __webpack_require__) {
 
+var __vue_exports__, __vue_options__
+var __vue_styles__ = {}
+
+/* script */
+__vue_exports__ = __webpack_require__(13)
+
+/* template */
+var __vue_template__ = __webpack_require__(17)
+__vue_options__ = __vue_exports__ = __vue_exports__ || {}
+if (
+  typeof __vue_exports__.default === "object" ||
+  typeof __vue_exports__.default === "function"
+) {
+if (Object.keys(__vue_exports__).some(function (key) { return key !== "default" && key !== "__esModule" })) {console.error("named exports are not supported in *.vue files.")}
+__vue_options__ = __vue_exports__ = __vue_exports__.default
+}
+if (typeof __vue_options__ === "function") {
+  __vue_options__ = __vue_options__.options
+}
+__vue_options__.__file = "/home/michael/work/Ethereum/websiteBuilding/src/components/DappItem.vue"
+__vue_options__.render = __vue_template__.render
+__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-7855539d", __vue_options__)
+  } else {
+    hotAPI.reload("data-v-7855539d", __vue_options__)
+  }
+})()}
+if (__vue_options__.functional) {console.error("[vue-loader] DappItem.vue: functional components are not supported and should be defined in plain js files using render functions.")}
+
+module.exports = __vue_exports__
+
+
+/***/ },
+/* 10 */
+/***/ function(module, exports, __webpack_require__) {
+
 "use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_DappItem_vue__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_DappItem_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__components_DappItem_vue__);
 Object.defineProperty(exports, "__esModule", { value: true });
 //
 //
@@ -2732,11 +2864,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
-//
+
+
+
 
 /* harmony default export */ exports["default"] = {
   name: 'app',
@@ -2771,157 +2901,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
         // Return an array with the filtered data.
         return dappList_array;;
     }
+  },
+  components: {
+    DappItem: __WEBPACK_IMPORTED_MODULE_0__components_DappItem_vue___default.a
   }
 };
 
 
 /***/ },
-/* 10 */
-/***/ function(module, exports, __webpack_require__) {
-
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', [_vm._v("Dapps are coming soon...")])
-},staticRenderFns: []}
-module.exports.render._withStripped = true
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-4158c4d2", module.exports)
-  }
-}
-
-/***/ },
 /* 11 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Learn_vue__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Learn_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__Learn_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__DappList_vue__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__DappList_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__DappList_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Explorer_vue__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Explorer_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__Explorer_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_vue_router__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_vue_router___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_vue_router__);
-
-
-
-
-
-var css = __webpack_require__(0);
-
-// import Vue from 'vue'; // not working through webpack yet
-
-
-const routes = [
-  { path: '/learn', component: __WEBPACK_IMPORTED_MODULE_0__Learn_vue___default.a },
-  { path: '/explorer', component: __WEBPACK_IMPORTED_MODULE_2__Explorer_vue___default.a },
-  { path: '/dapps', component: __WEBPACK_IMPORTED_MODULE_1__DappList_vue___default.a }
-]
-
-const router = new __WEBPACK_IMPORTED_MODULE_3_vue_router___default.a({
-  routes: routes,
-   mode: 'history'
-})
-
-
-const app = new Vue({
-  router
-}).$mount('#app')
-
-
-/***/ },
-/* 12 */,
-/* 13 */,
-/* 14 */
-/***/ function(module, exports, __webpack_require__) {
-
-var __vue_exports__, __vue_options__
-var __vue_styles__ = {}
-
-/* script */
-__vue_exports__ = __webpack_require__(16)
-
-/* template */
-var __vue_template__ = __webpack_require__(18)
-__vue_options__ = __vue_exports__ = __vue_exports__ || {}
-if (
-  typeof __vue_exports__.default === "object" ||
-  typeof __vue_exports__.default === "function"
-) {
-if (Object.keys(__vue_exports__).some(function (key) { return key !== "default" && key !== "__esModule" })) {console.error("named exports are not supported in *.vue files.")}
-__vue_options__ = __vue_exports__ = __vue_exports__.default
-}
-if (typeof __vue_options__ === "function") {
-  __vue_options__ = __vue_options__.options
-}
-__vue_options__.__file = "/home/michael/work/Ethereum/websiteBuilding/src/Explorer.vue"
-__vue_options__.render = __vue_template__.render
-__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-
-/* hot reload */
-if (false) {(function () {
-  var hotAPI = require("vue-hot-reload-api")
-  hotAPI.install(require("vue"), false)
-  if (!hotAPI.compatible) return
-  module.hot.accept()
-  if (!module.hot.data) {
-    hotAPI.createRecord("data-v-233e734a", __vue_options__)
-  } else {
-    hotAPI.reload("data-v-233e734a", __vue_options__)
-  }
-})()}
-if (__vue_options__.functional) {console.error("[vue-loader] Explorer.vue: functional components are not supported and should be defined in plain js files using render functions.")}
-
-module.exports = __vue_exports__
-
-
-/***/ },
-/* 15 */
-/***/ function(module, exports, __webpack_require__) {
-
-var __vue_exports__, __vue_options__
-var __vue_styles__ = {}
-
-/* script */
-__vue_exports__ = __webpack_require__(17)
-
-/* template */
-var __vue_template__ = __webpack_require__(19)
-__vue_options__ = __vue_exports__ = __vue_exports__ || {}
-if (
-  typeof __vue_exports__.default === "object" ||
-  typeof __vue_exports__.default === "function"
-) {
-if (Object.keys(__vue_exports__).some(function (key) { return key !== "default" && key !== "__esModule" })) {console.error("named exports are not supported in *.vue files.")}
-__vue_options__ = __vue_exports__ = __vue_exports__.default
-}
-if (typeof __vue_options__ === "function") {
-  __vue_options__ = __vue_options__.options
-}
-__vue_options__.__file = "/home/michael/work/Ethereum/websiteBuilding/src/Learn.vue"
-__vue_options__.render = __vue_template__.render
-__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-
-/* hot reload */
-if (false) {(function () {
-  var hotAPI = require("vue-hot-reload-api")
-  hotAPI.install(require("vue"), false)
-  if (!hotAPI.compatible) return
-  module.hot.accept()
-  if (!module.hot.data) {
-    hotAPI.createRecord("data-v-2530ca58", __vue_options__)
-  } else {
-    hotAPI.reload("data-v-2530ca58", __vue_options__)
-  }
-})()}
-if (__vue_options__.functional) {console.error("[vue-loader] Learn.vue: functional components are not supported and should be defined in plain js files using render functions.")}
-
-module.exports = __vue_exports__
-
-
-/***/ },
-/* 16 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2942,7 +2930,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 
 
 /***/ },
-/* 17 */
+/* 12 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2963,7 +2951,32 @@ Object.defineProperty(exports, "__esModule", { value: true });
 
 
 /***/ },
-/* 18 */
+/* 13 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ exports["default"] = {
+  name: 'dapp-item',
+  props: ['dapp'],
+  data () {
+    return {
+      msg: 'Welcome to Your Vue.js App'
+    }
+  }
+};
+
+
+/***/ },
+/* 14 */
 /***/ function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -2978,7 +2991,7 @@ if (false) {
 }
 
 /***/ },
-/* 19 */
+/* 15 */
 /***/ function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -2991,6 +3004,104 @@ if (false) {
      require("vue-hot-reload-api").rerender("data-v-2530ca58", module.exports)
   }
 }
+
+/***/ },
+/* 16 */
+/***/ function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', [_c('div', [_vm._v("more Dapps are coming ...")]), _vm._v(" "), _c('input', {
+    directives: [{
+      name: "model",
+      rawName: "v-model",
+      value: (_vm.searchString),
+      expression: "searchString"
+    }],
+    attrs: {
+      "type": "text",
+      "placeholder": "Dapp list testing"
+    },
+    domProps: {
+      "value": _vm._s(_vm.searchString)
+    },
+    on: {
+      "input": function($event) {
+        if ($event.target.composing) { return; }
+        _vm.searchString = $event.target.value
+      }
+    }
+  }), _vm._v(" "), _c('ul', _vm._l((_vm.filteredDapps), function(dapp) {
+    return _c('dapp-item', {
+      attrs: {
+        "dapp": dapp
+      }
+    })
+  }))])
+},staticRenderFns: []}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-4158c4d2", module.exports)
+  }
+}
+
+/***/ },
+/* 17 */
+/***/ function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('li', [_c('h3', [_vm._v(_vm._s(_vm.dapp.title))]), _vm._v(" "), _c('p', [_vm._v(_vm._s(_vm.dapp.description))])])
+},staticRenderFns: []}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-7855539d", module.exports)
+  }
+}
+
+/***/ },
+/* 18 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Learn_vue__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Learn_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__Learn_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__DappList_vue__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__DappList_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__DappList_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Explorer_vue__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Explorer_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__Explorer_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_vue_router__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_vue_router___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_vue_router__);
+
+
+
+
+
+var css = __webpack_require__(0);
+
+// import Vue from 'vue'; // not working through webpack yet
+
+
+
+//Vue router
+const routes = [
+  { path: '/learn', component: __WEBPACK_IMPORTED_MODULE_0__Learn_vue___default.a },
+  { path: '/explorer', component: __WEBPACK_IMPORTED_MODULE_2__Explorer_vue___default.a },
+  { path: '/dapps', component: __WEBPACK_IMPORTED_MODULE_1__DappList_vue___default.a }
+]
+
+const router = new __WEBPACK_IMPORTED_MODULE_3_vue_router___default.a({
+  routes: routes,
+   mode: 'history'
+})
+
+// mount app to div #app
+const app = new Vue({
+  router
+}).$mount('#app')
+
 
 /***/ }
 /******/ ]);

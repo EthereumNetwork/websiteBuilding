@@ -8,6 +8,8 @@ var css = require('./styles.css');
 // import Vue from 'vue'; // not working through webpack yet
 import VueRouter from 'vue-router';
 
+
+//Vue router
 const routes = [
   { path: '/learn', component: Learn },
   { path: '/explorer', component: Explorer },
@@ -19,7 +21,7 @@ const router = new VueRouter({
    mode: 'history'
 })
 
-
+// mount app to div #app
 const app = new Vue({
   router
 }).$mount('#app')
