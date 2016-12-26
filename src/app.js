@@ -23,5 +23,8 @@ const router = new VueRouter({
 
 // mount app to div #app
 const app = new Vue({
-  router
+  router: router,
+  data : {
+    searchField: "",
+  }
 }).$mount('#app')

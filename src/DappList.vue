@@ -1,7 +1,9 @@
 <template>
   <div>
-    <div>more Dapps are coming ...</div>
-    <input type="text" v-model="searchString" placeholder="Dapp list testing" />
+    <div>
+      <p>until now the dapp list is just an array on the client side, I want to connect a MongoDB sever-side and fill it up...</p>
+      <p>use the search bar to filter dapps</p>
+    </div>
     <ul>
       <dapp-item v-for="dapp in filteredDapps" v-bind:dapp="dapp"></dapp-item>
     </ul>
@@ -16,9 +18,9 @@ import DappItem from './components/DappItem.vue'
 
 export default {
   name: 'app',
+  props: ['searchField'],
   data () {
     return {
-      searchString: "",
       dappList: [
         { title: 'Golem', description: 'Golem is great' },
         { title: 'Augur', description: 'Augur is a prediction market'  },
@@ -27,19 +29,20 @@ export default {
     }
   },
   computed: {
-    // A computed property that holds only those articles that match the searchString.
+    // A computed property that holds only those articles that match the searchField.
     filteredDapps: function () {
         var dappList_array = this.dappList,
-            searchString = this.searchString;
+            searchField = this.searchField;
+        console.log(this.searchField);
 
-        if(!searchString){
+        if(!searchField){
             return dappList_array;
         }
 
-        searchString = searchString.trim().toLowerCase();
+        searchField = searchField.trim().toLowerCase();
 
         dappList_array = dappList_array.filter(function(item){
-            if(item.description.toLowerCase().indexOf(searchString) !== -1){
+            if(item.description.toLowerCase().indexOf(searchField) !== -1){
                 return item;
             }
         })

@@ -14,11 +14,9 @@
       <li><router-link to="/explorer">Network Explorer</router-link></li>
       <li><a href="https://blog.ethereum.network">Blog</a></li>
     </ul>
-    <input type="text" v-model="boundData" placeholder="Dapp list testing" />
+    <input type="text" v-model="searchField" placeholder="filter dapps, txIDs, adresses" />
     <br><br><br>
-    <router-view test-prop="Test works" :bound-prop="boundData"></router-view>
-    <div id="routerDiv"></div>
-    <br><br><br>
+    <router-view v-bind:search-field="searchField"> </router-view>
     <div class="footer">
       <a href="https://twitter.com/EthereumPress">Twitter</a> |
       <a href="https://github.com/EthereumNetwork/websiteBuilding">Github</a>
