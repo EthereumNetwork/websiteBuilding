@@ -33,8 +33,7 @@ export default {
     filteredDapps: function () {
         var dappList_array = this.dappList,
             searchField = this.searchField;
-        console.log(this.searchField);
-
+            
         if(!searchField){
             return dappList_array;
         }
