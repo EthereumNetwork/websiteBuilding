@@ -22,6 +22,7 @@ export default {
   data () {
     return {
       dappList: [
+        // static array for testing, get dapp list from server: https://www.npmjs.com/package/vue-async-computed
         { title: 'Golem', description: 'Golem is great' },
         { title: 'Augur', description: 'Augur is a prediction market'  },
         { title: 'Whatever else Ethereum can do', description: 'Ethereum is the new kid on the block'  }
@@ -33,7 +34,7 @@ export default {
     filteredDapps: function () {
         var dappList_array = this.dappList,
             searchField = this.searchField;
-            
+
         if(!searchField){
             return dappList_array;
         }
