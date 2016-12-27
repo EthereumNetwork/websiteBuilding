@@ -1,6 +1,6 @@
 var express = require('express');
 var history = require('connect-history-api-fallback');
-var db = require('./db.js')
+// var db = require('./db.js') deactivate for now due to limited AWS storage space :/
 
 var app = express();
 
