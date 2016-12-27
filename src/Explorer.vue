@@ -1,9 +1,8 @@
 <template>
   <div>
     <p>{{ msg }}</p>
-    <p>use the search bar to look up addresses, txIDs and other smart contract properties</p>
-    <p>{{ searchField }}</p>
-
+    <p>then you can use the search bar to look up addresses, txIDs and other smart contract properties</p>
+    <p>{{ searchField }}</p><br>
   </div>
 </template>
 
